@@ -1,0 +1,50 @@
+header.masthead {
+    text-align: center;
+    color: rgb(140, 11, 11);
+    background-image: url("../img/masterpageFoto.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+header.masthead .intro-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* <!-- The title of the conference --> */
+
+header.masthead .intro-text .intro-lead-in {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 25px;
+}
+
+header.masthead .intro-text .intro-heading {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(215, 240, 24); /* preferred color */ -webkit-text-stroke: 2px black; /* outline */
+}
+
+/* <!-- The button to attend the conference --> */
+.btn{
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btn-primary {
+    background-color: #428bca;
+    border-color: #ce84d6;
+}
